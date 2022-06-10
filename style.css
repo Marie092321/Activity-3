@@ -1,0 +1,204 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(image/music-png-transparent-image.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav {
+    display: flex;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 80px;
+   
+}
+.logo {
+    color: orange;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    text-shadow: 5px grey;
+}
+.menu {
+    flex: 1;
+    width: 100%;
+    float: right;
+    height: 10%;
+    
+}
+ul {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+ul li a {
+    text-decoration: none;
+    color:white;
+    font-family: Georgia;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search {
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+
+    
+    
+}
+h2 {
+    color: white;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 30px;
+    padding: 10px 0px 20px ;
+
+}
+.srch{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 50%;
+    left: 35%;
+    top: 100%;
+    bottom: 15%;
+    height: 100%;
+    width: 30%;
+    margin-bottom: 20px;
+    border: 2px solid orange;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    outline: none;
+    padding: .50rem;
+    background: none;
+    border-radius: 0.5rem;   
+}
+::placeholder {
+    color: white;
+    font-family:  serif;
+}
+.btn {
+    text-decoration: none;
+    box-shadow: 3px 3px 3px rgb(225, 181, 77);
+    padding: 5px 15px;
+    margin: 20% 25%;  
+    font-size: 1.25rem;
+    position: relative;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    transition: transform 0.36 ease;
+}
+
+.container {
+    
+    padding: 10px;
+    margin: 5% 25%;
+}
+.item {
+    background-color: white;
+    color: rgb(10, 10, 10);
+    font-size: 15px;
+    padding: 20px;
+    margin: 10px;
+    font-family: "Californian FB";
+    font-size: 20px;
+    
+}
+h4 {
+    font-size: 15px;
+}
+.link {
+    margin: 5% 30%;
+}
+
+#box2 {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background:rgba(254, 252, 248, 0.774);
+    background-size: 100%, 200%;
+    transition: all .8s;
+    margin-left: 80px;
+}
+.box:hover {
+    background-position:bottom;
+    color: rgb(30, 27, 27);
+    border: none;
+    box-shadow: 0 0 20px coral;
+}
+.btn2 {
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px rgb(225, 181, 77);
+    padding: 3px 5px; 
+    font-size: 1.00rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.704);
+    color: white;
+    border-radius: 20px;
+    transition: transform 0.36 ease;
+}
+
+.footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+    
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
